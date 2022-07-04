@@ -1,0 +1,73 @@
+body {
+  font-family: "Finlandica", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+}
+.orange-color {
+  color: rgb(219, 100, 21);
+}
+.flexiable-container {
+  display: flex;
+  padding-bottom: 150px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 80%;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, red);
+  padding: 10px;
+  font-weight: 400;
+  color: aliceblue;
+  border-radius: 5%;
+}
+.top-banner {
+  background-image: url(img/top-banner.png);
+  background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.half-width p {
+    
+  padding-right: 20px;
+}
+.experiencs-item {
+  box-shadow: 10px 10px 40px rgb(145, 139, 139);
+  border-radius: 3%;
+}
+.experiencs-area {
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+.experiencs-item {
+
+  width: 40%;
+  
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+ 
+}
+#fullstack-developer{
+    border-left: 5px solid blue;
+}
+#baby-developer{
+    border-left: 5px solid red;
+}
+.footer-center{
+    text-align: center;
+}
